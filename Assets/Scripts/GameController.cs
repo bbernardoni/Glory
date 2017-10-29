@@ -28,8 +28,10 @@ public class GameController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-
-	}
+        if(Input.GetKeyDown(KeyCode.Escape)){
+            Application.Quit();
+        }
+    }
 
 	Transform randomSpawnPoint(Transform[] spawns) {
 		return spawns[(int)Random.Range (0, spawns.Length)];

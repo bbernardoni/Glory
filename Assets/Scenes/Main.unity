@@ -2735,7 +2735,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 78f2b2f0f7ca2a647b1e13ecf67f40ea, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  moveForce: 25
+  moveForce: 15
   maxSpeed: 50
   mouseSensitivity: 2
   camControl: {fileID: 370537226}

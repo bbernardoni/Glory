@@ -40,8 +40,8 @@ public class Enemy : MonoBehaviour {
 		if(spearTipDelta.magnitude < 1.5f) {
 			gc.reportHitTaken ();
             pc.changeHealthPool(-10.0f, -angle);
-		} else if (rb.velocity.z < 30) {
-            rb.AddRelativeForce(0.0f, 0.0f, 13.0f);
+		} else if (rb.velocity.z < 20) {
+            rb.AddRelativeForce(0.0f, 0.0f, 9.0f);
         }
 
 	}
